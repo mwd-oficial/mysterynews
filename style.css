@@ -39,16 +39,23 @@ body {
 .parallax {
     background-image: linear-gradient(-45deg, black, var(--cor4), black, var(--cor4), black);
     padding: 50px 0px;
+    overflow: hidden;
 }
 
 .parallax img {
     max-width: 80%;
+    overflow: hidden;
 }
 
 #imgpar {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+#assfac, #detlup {
+    overflow: hidden;
 }
 
 #tit {
