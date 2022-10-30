@@ -88,6 +88,28 @@
     <footer>
         <a href="https://github.com/mwd-oficial" target="_blank"><img src="logoMWDt.png" alt="logo" id="logo"></a>
     </footer>
+    <script src="gsap.min.js"></script>
+    <script src="ScrollTrigger.min.js"></script>
+    <script>
+        gsap.from("#mysteryimg", {
+            scrollTrigger : {
+                scrub: true
+            },
+            rotate: "1440deg"
+        })
+        gsap.from("#assfac", {
+            scrollTrigger : {
+                scrub: true
+            },
+            x: "-100px"
+        })
+        gsap.from("#detlup", {
+            scrollTrigger : {
+                scrub: true
+            },
+            x: "100px"
+        })
+    </script>
 </body>
 
 </html>
