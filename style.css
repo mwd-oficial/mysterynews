@@ -30,9 +30,13 @@ body {
     margin: auto;
 }
 
+#cabeca p {
+    text-align: center;
+}
+
 
 #mysteryimg {
-    width: 50%;
+    width: 40%;
     padding: 25px 0px;
 }
 
@@ -63,38 +67,6 @@ body {
     display: none;
 }
 
-#titacomvid {
-    display: block;
-}
-
-#acomvid {
-    margin: auto;
-    margin-top: 20px;
-    color: black;
-    background-color: var(--cor2);
-    padding: 10px;
-    border: solid var(--cor3) 5px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.5);
-    font-size: 14px;
-    cursor: pointer;
-    display: block;
-}
-
-#acomvidpeq {
-    margin: auto;
-    margin-top: 20px;
-    color: black;
-    background-color: var(--cor2);
-    padding: 10px;
-    border: solid var(--cor3) 5px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.5);
-    font-size: 14px;
-    cursor: pointer;
-    display: none;
-}
-
 a {
     text-decoration: none;
 }
@@ -108,13 +80,7 @@ main {
     border: solid var(--cor2) 5px;
     border-radius: 50px;
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
-    padding: 0px 50px;
-}
-
-.acom {
-    background-color: var(--cor2);
-    margin: 30px 0px;
-    text-align: center;
+    padding: 50px;
 }
 
 p {
@@ -177,6 +143,9 @@ footer {
     }
     #logo:hover {
         transform: rotateZ(360deg);
+    }
+    audio {
+        width: 250px;
     }
     
 }
